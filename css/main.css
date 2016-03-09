@@ -1,0 +1,184 @@
+
+/*
+Pseudo ::scrollbar-thumb element
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.2);
+}
+
+Pseudo ::scrollbar-track element
+*::-webkit-scrollbar-track {
+    background: rgba(255,255,255,.08);
+}
+*/
+
+/*FONDO DE COLOR: HEADER VERDE Y CUERPO GRIS*/
+body{
+	z-index: -1;
+	background-color: #dfdfdf !important;
+	color: #4b4b4b;
+	height: 100%;
+}
+.span{
+	display: inline-block;
+}
+/*INICIO TIPOS DE LETRA*/
+*{
+	font-family: Roboto, sans-serif;
+}
+.nombre{
+	font-size: 11px;
+	margin-top: 5px;
+	margin-bottom: -2px;
+	font-weight: normal;
+}
+.ultimo-mensaje{
+	font-size: 9px;
+	font-weight: thin;
+}
+.hora{
+	margin-top: 10px;
+	position: relative;
+}
+.ico-size{ /*Del ícono*/
+	font-size: 12px;
+}
+.letra-celeste{
+	color: #00ccff;
+}
+.letra-rosa{
+	color:#ff0066;
+}
+.letra-verde{
+	color: #1dc973;
+}
+.letra-amarillo{
+	color: #e6b800;
+}
+/*FIN TIPOS DE LETRA*/
+
+
+	div.header-color{
+		background-color: #009688;
+		position: absolute;
+		top: 0;
+		left: -14px;
+		right: -14px;
+		height: 17%;
+		width: 100%;
+		z-index: -1;
+	}
+
+	/*INICIO CONTENEDOR UNIVERSAL FLOTADO SOBRE HEADER VERDE Y BODY GRIS*/
+	.universal{
+		width: 800px !important;
+		margin-right: 10% !important;
+	}
+	.float{
+		background-color: white;
+		float: left;
+		position: absolute;
+		left: 20%;
+		top: 10%;
+	}
+	/* FIN CONTENEDOR UNIVERSAL FLOTADO SOBRE HEADER VERDE Y BODY GRIS*/
+
+
+		/*INICIO HEADER DEL CHAT: ES GRIS Y SON COL-4 + COL-8 */
+		.bg-gris{
+			background-color: #f0f0f0;
+			padding-top: 5px;
+			padding-bottom: 5px; /*Del header*/
+		}
+		.border-right{
+			border-right: 1px solid #c0c0c0; /*Línea de boder derecho*/
+		}
+				
+				/*INICIO Imagen redonda*/
+				.round{
+					border-radius: 30px;
+					height: 32px;
+					width: 32px;
+					margin-top: 5px;
+				}
+				/*FIN  imagen redonda*/
+		.icon {
+			position: relative;
+			padding-top: 10px;
+		}
+		/*FIN HEADER DEL CONTENEDOR UNIVERSAL (CHAT) : ES GRIS Y SON COL-4 + COL-8 */
+
+/* overflow:scroll    propiedad para barra de scroll */
+
+/*INICIO CAJA DE CHATS */
+
+/*INICIO FORMULARIO DE BÚQUEDA DE CHAT*/
+.search-chat{
+	background-color: white;
+}
+input{
+	width: 100%;
+}
+.open-chats{
+	background-color: white;
+	margin-left: -14px;
+	margin-right: 0;
+}
+.open-chats > div{
+	border-bottom: 1px solid #c0c0c0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.open-chats > img{
+	margin-left: 10px;
+}
+
+/*FIN CAJA DE CHATS */
+
+/*INICIO CAJA DE CONVERSACIÓN EN CURSO*/
+
+.current-conversation{
+	background-image: url(../image/chat-panel-bg.png);
+}
+	.msg-recibidos{
+		border-radius: 5px;
+		background-color: #f0f0f0;
+		padding: 5px 12px;
+		margin-top: 5px;
+		margin-left:  15px;
+		margin-right: -100px;
+	}
+	.msg-enviados{
+		border-radius: 5px;
+		background-color: #ccffcc;
+		padding: 3px 12px;
+		margin-top: 10px;
+		margin-right:  15px;
+		margin-left: -100px;
+	}
+.ali-der{
+	text-align: right;
+}
+.ali-izq{
+	text-align: left;
+}
+.mb-neg-5{
+	margin-bottom: -5px;
+	font-size: 11px;
+}
+
+/*INICIO CAJA DE EMOTICONOS + FORMULARIO "ESCRIBE TU TEXTO" + ICONO MICRÓFONO */
+
+.barra-chat{
+	margin-top: 20px;
+	margin-bottom: -30px;
+	background-color: #f0f0f0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*FIN CAJA DE EMOTICONOS + FORMULARIO "ESCRIBE TU TEXTO" + ICONO MICRÓFONO */
+
+/*FIN CAJA DE CONVERSACIÓN EN CURSO*/
+
+/*background-image: url(../image/chat-panel-bg.png);*/
+/*Inserta tu css aqui*/
